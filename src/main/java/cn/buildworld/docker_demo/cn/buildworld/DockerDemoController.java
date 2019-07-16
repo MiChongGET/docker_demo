@@ -13,6 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class DockerDemoController {
     @GetMapping("/")
     public String index (){
-        return "hello world，Jenkins && Docker协同开发部署完成！";
+        return "hello world，Jenkins && Docker协同开发部署完成！流程跑成功！！！";
     }
 }
